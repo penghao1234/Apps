@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_dashboard"
+        android:title="如何使用本宝宝"/>
+    <item
+        android:id="@+id/nav_messages"
+        android:icon="@drawable/ic_event"
+        android:title="为什么要出租？"/>
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/ic_headset"
+        android:title="发布朋友圈"/>
+    <item
+        android:id="@+id/nav_discussion"
+        android:icon="@drawable/ic_forum"
+        android:title="帮助"/>
+  </group>
+
+  <item android:title="@string/action_settings">
+    <menu>
+      <item
+          android:id="@+id/action_login"
+          android:icon="@drawable/ic_dashboard"
+          android:title="@string/action_qr_code"/>
+      <item
+          android:id="@+id/action_about"
+          android:icon="@drawable/ic_forum"
+          android:title="@string/action_about"/>
+    </menu>
+  </item>
+
+
+</menu>
